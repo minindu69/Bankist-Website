@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Bankist</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="./assets/img/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+            <li class="nav__item">
+              <a class="nav__link" href="#section--1">Features</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--2">Operations</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--3">Testimonials</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--btn btn--show-modal" href="#"
+                >Open account</a
+              >
+            </li>
+          </ul>
+      </nav>
+    </header>
+
+    <!-- main content -->
+     <main>
+        <!-- Hero Section -->
+        <section class="section section__hero" id="section--hero">
+            <div class="hero__title">
+                <h1>
+                  When
+                  <!-- Green highlight effect -->
+                  <span class="highlight">banking</span>
+                  meets<br />
+                  <span class="highlight">minimalist</span>
+                </h1>
+                <h4>A simpler banking experience for a simpler life.</h4>
+                <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+                <img
+                  src="./assets/img/hero.png"
+                  class="hero__img"
+                  alt="Minimalist bank items"
+                />
+              </div>
+        </section>
+     </main>
+
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
